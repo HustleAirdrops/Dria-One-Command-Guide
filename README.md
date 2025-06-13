@@ -99,6 +99,8 @@ Try changing the model.
 **2. Why aren't points updating?**  
 Points are not updated instantly. Your node earns steps as it completes tasks, so there may be a delay (days or weeks). If your node is running fine, you'll get your points!
 
+**2. Import Old Account in new Vps** 
+Install normally and use old private key, it will start your old account automatically!!!
 ---
 
 > 💬 **Need help?** [@Legend_Aashish](https://t.me/Legend_Aashish)  
