@@ -4,12 +4,16 @@ Welcome! This guide will help you set up your Dria Node in just a few steps. Fol
 
 ---
 
-## 🖥️ Step 1: Create a Screen Session (For VPS Users)
+## 🖥️ Step 1: Create a Tmux Session (For VPS Users)
 
 ```bash
-screen -S dria
+tmux new -s dria
 ```
+If you get an error, install tmux with:
 
+```bash
+sudo apt install tmux
+```
 ---
 
 ## ⚡ Step 2: Install & Setup Dria Node
@@ -29,7 +33,7 @@ bash <(curl -s https://raw.githubusercontent.com/HustleAirdrops/Dria-One-Command
 
 ## ✅ Installation Complete!
 
-- **Detach screen (VPS):** Press `Ctrl+A+D`
+- **Detach screen (VPS):** Press `Ctrl+B, then press D`
 
 ---
 
