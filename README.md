@@ -33,7 +33,7 @@ bash <(curl -s https://raw.githubusercontent.com/HustleAirdrops/Dria-One-Command
 
 ## ✅ Installation Complete!
 
-- **Detach screen (VPS):** Press `Ctrl+B, then press D`
+- **Detach Tmux (VPS):** Press `Ctrl+B, then press D`
 
 ---
 
