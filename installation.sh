@@ -19,7 +19,7 @@ curl -fsSL https://dria.co/launcher | bash
 
 # 🛣️ Step 3: Add Dria to PATH (if not already)
 echo "🔧 Updating PATH..."
-echo 'export PATH="$HOME/.dria/bin:$PATH"' >> ~/.bashrc
+grep -qxF 'export PATH="$HOME/.dria/bin:$PATH"' ~/.bashrc || echo 'export PATH="$HOME/.dria/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
 # ─────────────────────────────────────────────────────────────
